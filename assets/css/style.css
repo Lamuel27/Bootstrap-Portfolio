@@ -1,7 +1,11 @@
 .containerone {
     position: relative;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
   }
+  
   
   /* .image {
     display: block;
@@ -48,4 +52,25 @@
 img:hover {
     webkit-filter: blur(4px);
     filter: blur(4px);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+} */
+
+.bike {
+    float: right;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
