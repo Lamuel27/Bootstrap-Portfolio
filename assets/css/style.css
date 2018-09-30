@@ -75,3 +75,29 @@ img:hover {
     clear: both;
     display: table;
 }
+@media only screen and (max-width:320px) {
+    .text {
+        color: white;
+        font-size: 2.7vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
+    @media only screen and (max-width: 640px) {
+        .text {
+            color: white;
+            font-size: 2.7vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        }
